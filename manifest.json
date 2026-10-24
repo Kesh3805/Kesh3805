@@ -1,0 +1,211 @@
+{
+  "page": "C · Question-led, compact",
+  "count": 34,
+  "totalBytes": 6163497,
+  "files": [
+    {
+      "file": "assets/profile/dark/glyph-open.png",
+      "from": "assets/v2/exports/editorial/dark/glyph-open-mobile.png",
+      "bytes": 2211,
+      "sha256": "be9f8619ee3934375c2c15804a6d4987ba68cc0c00d6ee2ae27cea828461443b"
+    },
+    {
+      "file": "assets/profile/dark/glyph-resolved.png",
+      "from": "assets/v2/exports/editorial/dark/glyph-resolved-mobile.png",
+      "bytes": 1825,
+      "sha256": "f5229674a2a670cce9de2486054f0bd6ab3ae01e3a4ec6d29a19e613d06982e7"
+    },
+    {
+      "file": "assets/profile/dark/horizon-figure-desktop.png",
+      "from": "assets/v3/exports/v3/dark/horizon-figure-desktop.png",
+      "bytes": 586009,
+      "sha256": "a182bae3067a7c5571586be756c347496cd9236cbdfd7c3a581ec540a121f0e3"
+    },
+    {
+      "file": "assets/profile/dark/horizon-figure-mobile.png",
+      "from": "assets/v3/exports/v3/dark/horizon-figure-mobile.png",
+      "bytes": 609494,
+      "sha256": "b3ac46c7bfee770980e4c9b45da52c197cd709541ed002cce9d36a0bf893d6ee"
+    },
+    {
+      "file": "assets/profile/dark/horizon-figure-tablet.png",
+      "from": "assets/v3/exports/v3/dark/horizon-figure-tablet.png",
+      "bytes": 550582,
+      "sha256": "0cad36b9d1789ed4410db8f4ed3370c4338a88d5805dd2bb7be52d4e26e565e5"
+    },
+    {
+      "file": "assets/profile/dark/late-answer-desktop.png",
+      "from": "assets/v3/exports/v3/dark/late-answer-desktop.png",
+      "bytes": 38901,
+      "sha256": "01c834f1087900298fdeac1817d009ae1e81b7a07b4fc6e6b94a227854a6cd89"
+    },
+    {
+      "file": "assets/profile/dark/late-answer-mobile.png",
+      "from": "assets/v3/exports/v3/dark/late-answer-mobile.png",
+      "bytes": 28378,
+      "sha256": "eae9e976c652ccdd5e59b8d8d4a44e309d5b5ff7e225869836f4a4fdb99ef2a5"
+    },
+    {
+      "file": "assets/profile/dark/layered-memory-desktop.png",
+      "from": "assets/v3/exports/v3/dark/layered-memory-desktop.png",
+      "bytes": 83712,
+      "sha256": "b81bed64bda16af47ced00b501e9bad5de6d0191b1cdfc77dc561b0bb3046b2f"
+    },
+    {
+      "file": "assets/profile/dark/layered-memory-mobile.png",
+      "from": "assets/v3/exports/v3/dark/layered-memory-mobile.png",
+      "bytes": 174077,
+      "sha256": "b8f95a39c832269c48e30caa767ae26f0c4927305b1501870f2066a7072558df"
+    },
+    {
+      "file": "assets/profile/dark/projects-desktop.png",
+      "from": "assets/v3/exports/v3/dark/projects-desktop.png",
+      "bytes": 74444,
+      "sha256": "df5f3f542eb726601cc32fd8836ab6954d8d59235f7bb028afbe5c08b1c9e0be"
+    },
+    {
+      "file": "assets/profile/dark/projects-mobile.png",
+      "from": "assets/v3/exports/v3/dark/projects-mobile.png",
+      "bytes": 186411,
+      "sha256": "9fe3d0544cc282076122a8debf33308b4c2b38cf5d3cd1ee71e2d5f5db2c217d"
+    },
+    {
+      "file": "assets/profile/dark/reviewgraph-desktop.png",
+      "from": "assets/v3/exports/v3/dark/reviewgraph-desktop.png",
+      "bytes": 143444,
+      "sha256": "b56486093f93d38af2a38f10d1a76b316a3659e72b6213d445247d970fecbb71"
+    },
+    {
+      "file": "assets/profile/dark/reviewgraph-mobile.png",
+      "from": "assets/v3/exports/v3/dark/reviewgraph-mobile.png",
+      "bytes": 201982,
+      "sha256": "671042674cfb6e91e888a1dab3e3e62dafb4af7b47c8649299695027d06626ee"
+    },
+    {
+      "file": "assets/profile/dark/temporal-compute-desktop.png",
+      "from": "assets/v3/exports/v3/dark/temporal-compute-desktop.png",
+      "bytes": 106643,
+      "sha256": "8ead4a781264e1dc925d82f18ad2374c24ffa7b0c27cb8a7046a3ab7e7313952"
+    },
+    {
+      "file": "assets/profile/dark/temporal-compute-mobile.png",
+      "from": "assets/v3/exports/v3/dark/temporal-compute-mobile.png",
+      "bytes": 195142,
+      "sha256": "0d4ce5bc7063f219245421b3d70f4ae90cbd24a2c29bbf21ab4b381d32347114"
+    },
+    {
+      "file": "assets/profile/dark/worldline-band-desktop.png",
+      "from": "assets/v3/exports/v3/dark/worldline-band-desktop.png",
+      "bytes": 292000,
+      "sha256": "bbd6be28b012591975f1ef0376a8b12b7e39a5e3282eea8ea0677b369dfc4cba"
+    },
+    {
+      "file": "assets/profile/dark/worldline-band-mobile.png",
+      "from": "assets/v3/exports/v3/dark/worldline-band-mobile.png",
+      "bytes": 347199,
+      "sha256": "ab27ad0073ff90d45818927a3854793ac54bff94f9179f7f279534eecacabbce"
+    },
+    {
+      "file": "assets/profile/light/glyph-open.png",
+      "from": "assets/v2/exports/editorial/light/glyph-open-mobile.png",
+      "bytes": 2375,
+      "sha256": "c2546d0858adc360765a8f22e1ea4cbd8057349e9f9fb79512ff2e1cdde06976"
+    },
+    {
+      "file": "assets/profile/light/glyph-resolved.png",
+      "from": "assets/v2/exports/editorial/light/glyph-resolved-mobile.png",
+      "bytes": 1818,
+      "sha256": "c79cfe74020b91466ffd1c9c007bcf2f558d17f94e96b09f8fb4592d926f5d92"
+    },
+    {
+      "file": "assets/profile/light/horizon-figure-desktop.png",
+      "from": "assets/v3/exports/v3/light/horizon-figure-desktop.png",
+      "bytes": 369272,
+      "sha256": "0a845ac0584043cba0e226cb838ee4ff83ff5b60651f8177922fba838872fc4a"
+    },
+    {
+      "file": "assets/profile/light/horizon-figure-mobile.png",
+      "from": "assets/v3/exports/v3/light/horizon-figure-mobile.png",
+      "bytes": 376134,
+      "sha256": "7d1e7cb00cc2b96b09c5786d5c3ed1246519511d6a388d537aa3b5c73a8f6903"
+    },
+    {
+      "file": "assets/profile/light/horizon-figure-tablet.png",
+      "from": "assets/v3/exports/v3/light/horizon-figure-tablet.png",
+      "bytes": 336571,
+      "sha256": "d7e90a5cfc8040cc6ab9dbe83284b1a6a3c9d85bf7646a4b23d6d61fb9379609"
+    },
+    {
+      "file": "assets/profile/light/late-answer-desktop.png",
+      "from": "assets/v3/exports/v3/light/late-answer-desktop.png",
+      "bytes": 38732,
+      "sha256": "96b46a783ced561ce37a41c0813f01e403194ccc86c55b174fc55e48070f7ed3"
+    },
+    {
+      "file": "assets/profile/light/late-answer-mobile.png",
+      "from": "assets/v3/exports/v3/light/late-answer-mobile.png",
+      "bytes": 28167,
+      "sha256": "1c2518aaf5ba3831d246fd8e6c70ef10baace0913c98fa2d8ba08a75f85bbd0e"
+    },
+    {
+      "file": "assets/profile/light/layered-memory-desktop.png",
+      "from": "assets/v3/exports/v3/light/layered-memory-desktop.png",
+      "bytes": 83710,
+      "sha256": "6eb012fd981b63459a072c96d90a675c8d0de98c3afcbd47b56ee043187334e5"
+    },
+    {
+      "file": "assets/profile/light/layered-memory-mobile.png",
+      "from": "assets/v3/exports/v3/light/layered-memory-mobile.png",
+      "bytes": 171666,
+      "sha256": "aa3e0e301130fd904101f4bda1f94799b42737a0c03cb3e41dae5b70e9a5dbc9"
+    },
+    {
+      "file": "assets/profile/light/projects-desktop.png",
+      "from": "assets/v3/exports/v3/light/projects-desktop.png",
+      "bytes": 73672,
+      "sha256": "9f5a5cc9f262a4c5a5be772a7e86b40cd40e680b0cf505ebd002b9d4b4091942"
+    },
+    {
+      "file": "assets/profile/light/projects-mobile.png",
+      "from": "assets/v3/exports/v3/light/projects-mobile.png",
+      "bytes": 183538,
+      "sha256": "813d15cf261fb37bd43e78cee81332e13ff5b175ecbdc1f2fc15d730e7c764e1"
+    },
+    {
+      "file": "assets/profile/light/reviewgraph-desktop.png",
+      "from": "assets/v3/exports/v3/light/reviewgraph-desktop.png",
+      "bytes": 141312,
+      "sha256": "02bda22de3492ba672b6f8b5ba3bd3a68201c329ad0d509e121e79cfd02d41a3"
+    },
+    {
+      "file": "assets/profile/light/reviewgraph-mobile.png",
+      "from": "assets/v3/exports/v3/light/reviewgraph-mobile.png",
+      "bytes": 194303,
+      "sha256": "8603d215e9092aa4cbaf39cf8c7f32f1ad2e76163bf0a89a32077b62f5e79ae2"
+    },
+    {
+      "file": "assets/profile/light/temporal-compute-desktop.png",
+      "from": "assets/v3/exports/v3/light/temporal-compute-desktop.png",
+      "bytes": 106677,
+      "sha256": "a6d6bbbaa5ec0e5a1888eedd0e32865a6f15f0a4e190a1485c535d435804d9eb"
+    },
+    {
+      "file": "assets/profile/light/temporal-compute-mobile.png",
+      "from": "assets/v3/exports/v3/light/temporal-compute-mobile.png",
+      "bytes": 193620,
+      "sha256": "0d49260c5b4843d246ad87d7f63d2448e6a34d9c4a7aef491539ca9c5ca04367"
+    },
+    {
+      "file": "assets/profile/light/worldline-band-desktop.png",
+      "from": "assets/v3/exports/v3/light/worldline-band-desktop.png",
+      "bytes": 107053,
+      "sha256": "8fe980886ac8e7b7b311aa728934a5b5c6f2e493801819725563703dffeae69a"
+    },
+    {
+      "file": "assets/profile/light/worldline-band-mobile.png",
+      "from": "assets/v3/exports/v3/light/worldline-band-mobile.png",
+      "bytes": 132423,
+      "sha256": "0989be3d1082c3d81bdb5a229380545f19f213159f0e686439e641b14e27aeb8"
+    }
+  ]
+}
