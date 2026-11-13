@@ -1,20 +1,4 @@
-<picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="assets/profile/dark/worldline-band-mobile.png">
-  <source media="(max-width: 1199px)" srcset="assets/profile/light/worldline-band-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/dark/worldline-band-desktop.png">
-  <img alt="Worldline diagram in Penrose-diagram notation: a single trajectory with light cones at three moments, the future drawn only as the region the line could enter." src="assets/profile/light/worldline-band-desktop.png" width="100%">
-</picture>
-
-I build systems that sit at the boundary between engineering and experiment — schedulers, code-analysis tools, memory architectures — and run controlled experiments to find out where they actually stand.
-
-<picture>
-  <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="assets/profile/dark/projects-mobile.png">
-  <source media="(max-width: 1199px)" srcset="assets/profile/light/projects-mobile.png">
-  <source media="(prefers-color-scheme: dark)" srcset="assets/profile/dark/projects-desktop.png">
-  <img alt="Three experimental results. temporal-compute: TC-S1 primary scheduler scored 524,509 against EDF 552,525 (−5.07%), failed all five registered gates. reviewgraph: test fixture shows six impacted elements for one changed method; end-to-end verification not yet built. Layered-Memory-Architecture: BM25 addition lowered MRR from 0.758 to 0.700 over 30 queries." src="assets/profile/light/projects-desktop.png" width="100%">
-</picture>
-
-[temporal-compute](https://github.com/Kesh3805/temporal-compute) · [reviewgraph](https://github.com/Kesh3805/reviewgraph) · [Layered-Memory-Architecture](https://github.com/Kesh3805/Layered-Memory-Architecture)
+I build computational systems and investigate how their behaviour changes under constraints — through implementation, simulation, and controlled experiments.
 
 ---
 
@@ -39,7 +23,7 @@ Experiment TC-S1 tested two temporal-utility schedulers against four conventiona
 
 </details>
 
-The primary scheduler (TC-S1) scored 524,509 against EDF's 552,525 — a 5.07% regression — and failed all five preregistered gates. A secondary variant came within 0.35% of EDF. Neither result is a success; both are informative. A second protocol, allocating render samples by marginal value, is registered and has not been run.
+The primary scheduler scored 524,509 against EDF's 552,525 — a 5.07% regression — and failed all five preregistered gates. A secondary variant came within 0.35% of EDF. A second protocol, allocating render samples by marginal value, is registered and has not been run.
 
 <picture>
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="assets/profile/dark/late-answer-mobile.png">
@@ -52,7 +36,9 @@ The primary scheduler (TC-S1) scored 524,509 against EDF's 552,525 — a 5.07% r
 
 **[reviewgraph](https://github.com/Kesh3805/reviewgraph)** · Rust, TypeScript · In progress
 
-A pull-request reviewer that grounds each finding in a code graph built from the base and head of the diff. Built so far: TypeScript parsing into a persistent code graph, change-impact analysis across both graph states, risk scoring, and reviewer prompts. The verification stage stores and deduplicates findings; the checks that would re-test a finding against the base graph are not written, and it has not reviewed a real pull request end to end.
+ReviewGraph investigates whether pull-request findings can be backed by explicit dependency and change-impact evidence from a code graph, rather than relying entirely on textual diffs.
+
+Built so far: TypeScript parsing into a persistent code graph, change-impact analysis across both base and head graph states, risk scoring, and reviewer prompts. The verification stage stores and deduplicates findings; the checks that would re-test a finding against the base graph are not written, and it has not reviewed a real pull request end to end.
 
 <details>
 <summary>Impact graph from the test fixture, and pipeline status</summary>
@@ -71,7 +57,9 @@ A pull-request reviewer that grounds each finding in a code graph built from the
 
 **[Layered-Memory-Architecture](https://github.com/Kesh3805/Layered-Memory-Architecture)** · Python · Experimental
 
-A self-hosted conversational system for testing retrieval behaviour across a tiered memory store. The most significant result so far is negative: on a 605-chunk corpus, adding BM25 to vector search lowered MRR from 0.758 to 0.700 over 30 queries. Adding a reranker recovered it to 0.772.
+A self-hosted conversational system for testing retrieval behaviour across a tiered memory store.
+
+The most significant result is a regression: on a 605-chunk corpus, adding BM25 to vector search lowered MRR from 0.758 to 0.700 over 30 queries. A separate configuration — same corpus, same query set — added a reranker instead and scored 0.772. The hybrid retrieval regression is the unexplained result; the reranker number is a subsequent data point, not a resolution.
 
 <details>
 <summary>MRR result and memory tier structure</summary>
@@ -90,7 +78,7 @@ A self-hosted conversational system for testing retrieval behaviour across a tie
 
 ## Research interests
 
-Mathematical structures have a habit of describing physical reality more precisely than intuition suggests they should. The Schwarzschild metric, for example, predicts the behaviour of signals near a black-hole horizon with enough specificity to draw the diagram below — computed from the equations, not by hand.
+Mathematical structures have a habit of describing physical reality more precisely than intuition suggests they should. The Schwarzschild metric predicts signal behaviour near a black-hole horizon with enough specificity to draw the diagram below — computed from the equations, not by hand.
 
 <details>
 <summary>Penrose diagram of a Schwarzschild black hole, computed</summary>
@@ -102,13 +90,11 @@ Mathematical structures have a habit of describing physical reality more precise
   <source media="(max-width: 1199px) and (prefers-color-scheme: dark)" srcset="assets/profile/dark/horizon-figure-tablet.png">
   <source media="(max-width: 1199px)" srcset="assets/profile/light/horizon-figure-tablet.png">
   <source media="(prefers-color-scheme: dark)" srcset="assets/profile/dark/horizon-figure-desktop.png">
-  <img alt="Penrose diagram of a Schwarzschild black hole. An observer falls inward emitting 16 light signals at equal proper-time intervals; a static receiver at r = 3.6M receives them progressively later. Signals emitted at or inside r = 2M never arrive." src="assets/profile/light/horizon-figure-desktop.png" width="100%">
+  <img alt="Penrose diagram of a Schwarzschild black hole. An observer falls inward emitting 16 light signals at equal proper-time intervals; a static receiver at r = 3.6M receives them progressively later. Signals emitted strictly inside r = 2M end at the singularity; one emitted exactly at r = 2M stays on the horizon. Neither reach the receiver." src="assets/profile/light/horizon-figure-desktop.png" width="100%">
 </picture>
 
-<sub>Schwarzschild metric (G = c = 1), drawn in Kruskal–Szekeres coordinates compactified with arctan. Thick curve: observer falling from rest at r = 2.5M. Thin curve: receiver at r = 3.6M. Ink signals reach the receiver; orange ones, emitted at or inside r = 2M, end at the singularity. Full notes: <a href="DIAGRAM-NOTES.md">DIAGRAM-NOTES.md</a>.</sub>
+<sub>Schwarzschild metric (G = c = 1), Kruskal–Szekeres coordinates compactified with arctan. Thick curve: observer falling from rest at r = 2.5M. Thin curve: receiver at r = 3.6M. Ink signals reach the receiver; orange ones, emitted strictly inside r = 2M (U = const &gt; 0), end at the singularity. Full notes: <a href="DIAGRAM-NOTES.md">DIAGRAM-NOTES.md</a>.</sub>
 
 </details>
 
-What I find worth thinking about: whether mathematical structures like this are discovered or constructed; what it means for computation to be bounded by physical time; and how much of what is currently intractable is a limitation of available intelligence rather than of reality.
-
-None of those are settled questions. The last one connects directly to temporal-compute.
+Whether mathematical structures like this are discovered or constructed is an open question. What it means for computation to be bounded by physical time is a more practical one — it is what temporal-compute is built around.
